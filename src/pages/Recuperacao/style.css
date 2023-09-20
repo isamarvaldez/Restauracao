@@ -6,12 +6,17 @@
 }
 
 .paginatotal {
-    height: 100vh  ;
+    height: 100vh;
     width: 100%;
     background-color: #053155;
     display: flex;
     justify-content: space-between;
 }
+
+.responsivo {
+    display: none;
+}
+
 
 .rapaz_dashboard {
     height: 100vh;
@@ -29,7 +34,7 @@
 }
 
 .Logo_Integradash {
-    height: 130px ;
+    height: 130px;
     margin-top: 50px;
     margin-bottom: 100px;
     position: relative;
@@ -39,18 +44,19 @@
 
 .clique_aqui {
     display: flex;
-    justify-content: right ;
+    justify-content: right;
     font-size: 15px;
-   margin-top: 10px;
-   color: gray;
+    margin-top: 10px;
+    color: gray;
 }
 
 .clique_aqui a {
     margin-left: 5px;
     color: #053155;
     text-decoration: none;
-    font-weight: 800;   
+    font-weight: 800;
 }
+
 /* 
 .alinhamento_login {
     display: flex;
@@ -69,7 +75,7 @@
 }
 
 form {
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 ::placeholder {
@@ -93,13 +99,13 @@ padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
-.testefonte2{
+.testefonte2 {
     display: none;
 }
 
 .botao_entrar:hover {
-    background-color: #3b6689; 
- }
+    background-color: #3b6689;
+}
 
 .senha {
     margin-bottom: 10px;
@@ -138,14 +144,14 @@ padding-bottom: 10px;
 
     } */
 
-.zoio{
-        cursor: pointer;
-        position: absolute;
-        width: 30px;
-        left: 265px;
-        bottom: 15px;
-      }
-    
+.zoio {
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    left: 265px;
+    bottom: 15px;
+}
+
 /* .teste1 {
 
 } */
@@ -161,8 +167,9 @@ padding-bottom: 10px;
     width: 100%;
     height: 100%;
 }
+
 h1 {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -171,44 +178,62 @@ margin-bottom: 40px;
 
 @media screen and (max-width: 950px) {
 
-.quadrado_branco {
-    width:100% ;
-} 
 
-.pagina_metade1 { 
-    display: none; 
-}
+    .quadrado_branco {
+        width: 100%;
+        background-image: url(../../assets/img/fundo_mobile.png);
+        background-size: 100vw 70%;
+        background-repeat: no-repeat;
+        display: flex;
+    }
 
-.quadrado_branco {
-    background-image: url(img/fundomobile\ 1.png);
-    background-size: 100vw 70%;
-    background-repeat: no-repeat;
+    .teste1 {
+        margin-top: 55px;
     display: flex;
-}
+    flex-direction: column;
+    align-items: flex-start;
+    height: 230px;
+    }
 
-.Logo_Integradash {
-    display: none;
-}
+    .pagina_metade1 {
+        display: none;
+    }
 
-.Logo_Claro {
-    display: flex;
+    h1 {
+        margin-bottom: -20px;
+    }
+
+    /* .quadrado_branco {
+        background-image: url(../../assets/img/fundo_mobile\ .png);
+        background-size: 100vw 70%;
+        background-repeat: no-repeat;
+        display: flex;
+    } */
+
+    .Logo_Integradash {
+        display: none;
+    }
+
+    .Logo_Claro {
+        display: flex;
     max-width: 250px;
-    margin-top:100px;
-    margin-left: 30px;
-}
+    margin-top: 230px;
+    }
 
-.alinhamento_input{ 
-    margin-top: 80px;
-}
+    .alinhamento_input {
+        margin-top: 50px;
+    }
 
-/* TESTE PARA ALTERAR O TEXTO CONFORME DIMINUI A TELA */
+    /* TESTE PARA ALTERAR O TEXTO CONFORME DIMINUI A TELA */
 
-.testefonte {
-    display: flex; /*none*/
-}
+    .testefonte {
+        display: flex;
+        /*none*/
+    }
 
-.testefonte2{
-    display: none; /*flex*/
-}
+    .testefonte2 {
+        display: none;
+        /*flex*/
+    }
 
 }
