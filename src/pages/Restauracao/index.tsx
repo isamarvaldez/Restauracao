@@ -10,7 +10,7 @@ import FundoDestok from "../../assets/img/fundo_destok.png"
 
 
 
-function Recuperacao() {
+function Restauracao() {
   return (
     <main>
       <section className="paginatotal">
@@ -130,4 +130,4 @@ function Recuperacao() {
   )
 
 }
-export default Recuperacao
+export default Restauracao
